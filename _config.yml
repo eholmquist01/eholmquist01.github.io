@@ -8,7 +8,7 @@ description: Personal site about tech, code, and creative work.
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: https://github.com/eholmquist01/eholmquist01.github.io/assets/images/emmalyn.JPG
+picture: https://eholmquist01.github.io/assets/images/emmalyn.JPG
 
 # your site color theme, true for dark theme, 
 # false to light theme, auto to switch with system.
