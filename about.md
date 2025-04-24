@@ -4,19 +4,11 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Welcome to my personal website! I am currently a dual-degree student at Saint Mary's College and the University of Notre Dame, with prospective degrees in Math and Computer Science Engineering. As I approach the end of the 5 year program, I am looking forward to taking more classes in CS at Notre Dame as I finish up my math degree at Saint Mary's. Currently, my main areas of interest are Data Science and Data Engineering.
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+In addition to the dual degree, I am involved with a local rowing club, where I enjoy participating in the fall and spring seasons. My passion for rowing started with my involvement in high school, where I have since continued my involvement with the sport by my participation of the local club and the work I do with Sparks Camps. At Sparks, I contribute to their social media platforms, along with leading and mentoring high school rowers as a Program Leader at some of their summer rowing camps. I look forward to attending one of their international camps this summer and having the opportunity to mentor kids from around the world.
+
+Further, I am a board member of the Saint Mary's Math Club, along with the Saint Mary's Sailing Club, where I have developed leadership skills and practiced creative strategies for growth. I also participate as a member of the Design for America club at Notre Dame, where we practice design thinking skills to offer volunteer consulting for local non-profit organizations.</p>
 
 <h2>Skills</h2>
 
