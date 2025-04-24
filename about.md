@@ -2,7 +2,8 @@
 title: About
 layout: page
 ---
-![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
+<!--![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})-->
+<img src="/assets/images/emmalyn.JPG" alt="Profile Image" style="max-width: 200px; border-radius: 50%;">
 
 <p>Welcome to my personal website! I am currently a dual-degree student at Saint Mary's College and the University of Notre Dame, with prospective degrees in Math and Computer Science Engineering. As I approach the end of the 5 year program, I am looking forward to taking more classes in CS at Notre Dame as I finish up my math degree at Saint Mary's. Currently, my main areas of interest are Data Science and Data Engineering.<p>
 
