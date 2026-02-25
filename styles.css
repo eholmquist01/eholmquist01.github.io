@@ -1,0 +1,422 @@
+/* Import a cute Google Font (optional but recommended) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Root pink color palette */
+:root {
+    --bs-primary: #e83e8c;        /* Main pink */
+    --bs-secondary: #f8bbd0;      /* Soft pastel pink */
+    --bs-success: #ff85a2;        /* Rosy pink */
+    --bs-info: #ffc1d6;           /* Light blush */
+    --bs-light: #fff0f6;          /* Very soft background pink */
+    --bs-dark: #8b004f;           /* Deep berry pink */
+}
+
+/* Body styling */
+body {
+    background-color: var(--bs-light);
+    font-family: 'Poppins', sans-serif;
+    color: #5a0033;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #ff85a2 !important;
+}
+
+.navbar a {
+    color: white !important;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: #ffe6f0 !important;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #e83e8c;
+    border-color: #e83e8c;
+}
+
+.btn-primary:hover {
+    background-color: #d63384;
+    border-color: #d63384;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(232, 62, 140, 0.2);
+}
+
+/* Links */
+a {
+    color: #d63384;
+}
+
+a:hover {
+    color: #8b004f;
+}
+
+/* Footer */
+footer {
+    background-color: #ffc1d6;
+    color: #5a0033;
+    padding: 1rem;
+}
+
+/* Profile Image Styling */
+.profile-img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 30px;   /* soft rounded square instead of circle */
+    box-shadow: 0 10px 25px rgba(232, 62, 140, 0.25);
+    transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.03);
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+.lead {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+address {
+    font-style: normal;
+    opacity: 0.8;
+}
+
+/* Section Cards */
+.section-card {
+    background-color: #fff0f6;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 40px auto;
+    max-width: 800px;
+    box-shadow: 0 8px 25px rgba(232, 62, 140, 0.08);
+}
+
+/* Section Titles */
+.section-title {
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #b30059;
+}
+
+/* Divider Between Sections */
+.section-divider {
+    height: 2px;
+    width: 60%;
+    margin: 0 auto;
+    background: linear-gradient(to right, transparent, #ff85a2, transparent);
+    border-radius: 10px;
+}
+
+/* Custom Badges */
+.custom-badge {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 5px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+/* Data Science badge */
+.badge-soft {
+    background-color: #ffc1d6;
+    color: #8b004f;
+}
+
+/* Education badge */
+.badge-medium {
+    background-color: #ff85a2;
+    color: white;
+}
+
+/* Machine learning badge */
+.badge-bold {
+    background-color: #d63384;
+    color: white;
+}
+
+/* Education year badge */
+.edu-badge {
+    background-color: #e83e8c;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 50px;
+    font-size: 0.85rem;
+}
+
+/* Travel badge – soft lavender-pink */
+.badge-travel {
+    background-color: #e0c3fc;
+    color: #5a189a;
+}
+
+/* Rowing badge – muted rose */
+.badge-rowing {
+    background-color: #ff99ac;
+    color: #6a040f;
+}
+
+/* Remove default list borders */
+.list-group-item {
+    background: transparent;
+    border: none;
+    padding: 15px 0;
+}
+
+.section-card p {
+    line-height: 1.7;
+}
+
+.section-card h5 {
+    color: #b30059;
+    font-weight: 600;
+}
+
+.section-img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    background: linear-gradient(135deg, #fff0f6, #ffe3f3);
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+}
+
+/* Custom pink outline button */
+.btn-outline-pink {
+    border: 2px solid #e83e8c;
+    color: #e83e8c;
+    border-radius: 50px;
+    padding: 8px 20px;
+    transition: 0.3s ease;
+}
+
+.btn-outline-pink:hover {
+    background-color: #e83e8c;
+    color: white;
+}
+
+/* Smooth collapse animation */
+.extra-content {
+    transition: all 0.4s ease;
+}
+
+.horizontal-scroll {
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 10px;
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+    display: none;  /* hides scrollbar */
+}
+
+.section-card:hover {
+    transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+    .horizontal-scroll {
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+
+    .section-card {
+        max-width: 100%;
+    }
+}
+
+/* ========== INTERESTS PAGE ONLY ========== */
+
+/* ===== INTERESTS HERO SECTION ===== */
+
+.interests-hero {
+    padding: 160px 0 120px 0;
+    background: linear-gradient(135deg, #fff0f6, #ffe3f3, #ffd6e8);
+}
+
+.interests-hero .lead {
+    max-width: 650px;
+}
+
+/* Typing Animation */
+/* Typing Layout */
+.typing-container {
+    display: inline-block;
+}
+
+.typing-text {
+    display: inline;
+}
+
+.cursor {
+    display: inline-block;
+    margin-left: 3px;
+    color: #cc116f; /* or whatever your accent color is */
+    animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+/* Arrow between header and scroll */
+.scroll-intro {
+    margin: 80px 0 80px 0;
+    font-size: 1.8rem;
+    color: #e83e8c;
+    opacity: 0.7;
+}
+
+/* Adds vertical depth before scroll section */
+.interests-content-section {
+    padding: 40px 0 120px 0;
+}
+
+/* Optional subtle fade effect at edges */
+.interests-content-section::before {
+    content: "";
+    display: block;
+    height: 60px;
+    background: linear-gradient(to bottom, #ffffff, transparent);
+}
+
+.interests-page .section-card {
+    min-width: 300px;     
+    max-width: 340px;    
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+
+    background: #ffd6e8;
+    padding: 22px;        
+    border-radius: 25px;
+    box-shadow: 0 15px 35px rgba(232, 62, 140, 0.12);
+    transition: transform 0.3s ease;
+}
+
+.interests-page .section-img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    background: linear-gradient(135deg, #fff0f6, #ffe3f3);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.interests-page .interests-header {
+    margin-bottom: 80px;   /* increase this number if you want more space */
+}
+
+.interests-page .interests-content {
+    margin-top: 100px;   /* adjust number as needed */
+}
+
+/* HERO SECTION */
+#hero-section {
+    padding: 120px 0;
+    background: linear-gradient(135deg, #fff0f6, #ffe3f3, #ffd6e8);
+}
+
+/* ========== GLOBAL FADE ANIMATION ========== */
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 0.9s cubic-bezier(.2,.8,.2,1) forwards;
+}
+
+.fade-delay-1 { animation-delay: 0.2s; }
+.fade-delay-2 { animation-delay: 0.4s; }
+.fade-delay-3 { animation-delay: 0.6s; }
+.fade-delay-4 { animation-delay: 0.8s; }
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* HERO  - projects.html */
+.projects-hero {
+    height: 55vh;
+    background: linear-gradient(135deg, #ff85a2, #e83e8c);
+    color: white;
+}
+
+/* PROJECT SECTIONS */
+.project-section {
+    padding: 100px 0;
+}
+
+.light-pink {
+    background-color: #fff0f6;   /* matches your global light */
+}
+
+.white-section {
+    background-color: #ffe3f3;   /* instead of pure white */
+}
+
+.project-subtitle {
+    color: #e83e8c;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+/* BUTTON */
+.pink-btn {
+    background-color: #e83e8c;
+    color: white;
+    border: none;
+    margin-top: 15px;
+}
+
+.pink-btn:hover {
+    background-color: #d63384;
+    color: white;
+}
+
+.project-section h2 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #b30059;
+}
+
+.project-section p {
+    max-width: 700px;
+}
+
+/* Contact Me */
+#contact-section {
+    background-color: #fff0f6; /* soft pink background */
+}
+
+.btn-pink {
+    background-color: var(--bs-primary);
+    color: white;
+    border: none;
+}
+
+.btn-pink:hover {
+    background-color: #d63384;
+    color: white;
+}
